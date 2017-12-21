@@ -1,0 +1,28 @@
+.header-main-wrap{
+    background: #212327 !important;
+    float: none;
+    width: auto;
+    height: 50px;
+    position: relative;
+}
+
+#body-main-wrap{
+    display: block;
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.slide-main-warp{
+    background: #417ffc !important;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.contain-main-warp{
+    background: #c0605a !important;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+}

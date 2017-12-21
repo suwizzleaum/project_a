@@ -1,0 +1,13 @@
+@media screen and (min-width: 1601px){
+#body-main-wrap {
+    display: table;
+    float: none;
+    margin: 0 auto;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    width: 1600px;}
+    
+}
