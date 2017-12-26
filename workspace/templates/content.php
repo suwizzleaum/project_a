@@ -15,6 +15,9 @@
                       <p><?php echo $contain; ?></p>
                       </div>
                   </div>
+                  <div class="contain-meta-bottom">
+                    <a href="#" class="btn btn-sm btn-outline-secondary"><span class="glyphicon glyphicon-heart"></span> Clap</a>
+                  </div>
                 </div>
                 
-              </div>
+        </div>
