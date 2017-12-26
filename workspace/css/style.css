@@ -15,7 +15,7 @@ body{background-color: #E9EBEF}
     margin-right: auto;
 }
 
-.slide-main-warp{
+.slide-main-wrap{
     background: #417ffc !important;
     position: relative;
     margin-left:auto;
@@ -23,7 +23,7 @@ body{background-color: #E9EBEF}
     margin-bottom: 10px;
 }
 
-.contain-main-warp{
+.contain-main-wrap{
     position: relative;
     margin-left:auto;
     margin-right: auto;
