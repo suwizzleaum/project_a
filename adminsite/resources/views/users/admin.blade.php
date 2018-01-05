@@ -17,7 +17,6 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                           
                             <th>Username</th>
                             <th>Email</th>
                             <th>Create_at</th>
@@ -32,7 +31,7 @@
                                 <td> {{$user->created_at}} </td>
                                 <td> </td>
                             </tr>
-                            @endforeach
+                            @endforeach 
                     </tbody>
                         </table>
                     </div>

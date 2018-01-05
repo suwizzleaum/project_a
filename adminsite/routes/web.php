@@ -25,3 +25,7 @@ Route::get('/users', 'Users\AdminController@index');
 //content
 Route::get('/content/post', 'Content\PostController@index');
 
+//categories
+Route::get('/categories', 'Categories\CategoriesController@index');
+Route::post('/categories/add', 'Categories\CategoriesController@create');
+
