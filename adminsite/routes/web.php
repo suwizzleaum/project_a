@@ -23,9 +23,14 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/users', 'Users\AdminController@index');
 
 //content
-Route::get('/content/post', 'Content\PostController@index');
+Route::get('/content', 'Content\PostController@index');
+Route::get('/content/post', 'Content\PostController@post_index');
+
+Route::post('/content/post/add', 'Content\PostController@store');
 
 //categories
 Route::get('/categories', 'Categories\CategoriesController@index');
+Route::get('/categories/delete/{id}', 'Categories\CategoriesController@delete');
+
 Route::post('/categories/add', 'Categories\CategoriesController@create');
 
