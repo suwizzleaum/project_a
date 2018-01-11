@@ -17,7 +17,7 @@
                       <p>{{image}}</p>
                       </div>
                       <div class="contain-text">
-                      <p>{{content}}</p>
+                      <p>{{introduce}}</p>
                       </div>
                   </div>
                   <div class="contain-meta-bottom">
