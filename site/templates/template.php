@@ -15,10 +15,8 @@
         <div id="slide-main-wrap" >slide
           
         </div>
-        <div id="contain-main-wrap">container
+        <div id="contain-main-wrap">
         <div class="div-contain-box">
-        <?=$this->section('content')?>
-        <?=$this->section('content')?>
         <?=$this->section('content')?>
         </div>
         </div>

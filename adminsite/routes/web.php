@@ -34,3 +34,5 @@ Route::get('/categories/delete/{id}', 'Categories\CategoriesController@delete');
 
 Route::post('/categories/add', 'Categories\CategoriesController@create');
 
+//API
+Route::get('/api', 'Api\ApiController@index');

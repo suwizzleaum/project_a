@@ -1,23 +1,23 @@
-<?php $this->layout('template', ['title' => 'content']) ?>
-
+<?php $this->layout('template') ?>
+    <script id="entry-template" type="text/x-handlebars-template">
+        {{#each obj}}
           <div class="timeline-item">
-
                 <div class="container-box-wrap">
                   <div class="contain-meta-top">
-                    <h6> <?php echo $top; ?></h6>
+                    <h6>{{title}}</h6>
                     <div id="contain-meta">
-                        <span id="time"><?php echo $time; ?></span>
-                        <span id="writer"><?php echo $writer; ?></span>
+                        <span id="time">{{created_at}}</span>
+                        <span id="writer">{{author}}</span>
                     </div>
                   
                   </div>
                   <hr>
                   <div class="contain-box-bodywrap">
                       <div class="contain-picture">
-                      <p><?php echo $picture; ?></p>
+                      <p>{{image}}</p>
                       </div>
                       <div class="contain-text">
-                      <p><?php echo $contain; ?></p>
+                      <p>{{content}}</p>
                       </div>
                   </div>
                   <div class="contain-meta-bottom">
@@ -25,5 +25,12 @@
                     <a href="#" class="btn btn-sm btn-outline-secondary"><span class="glyphicon glyphicon-heart"></span> B2</a>
                   </div>
                 </div>
-                
-        </div>
+            </div>
+        {{/each}}
+    </script>
+
+    <!--display entry-->
+    <div id="entry"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+<script src="templates/content.js"></script>
