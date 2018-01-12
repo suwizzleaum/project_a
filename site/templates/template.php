@@ -11,15 +11,30 @@
         <div id="main-nav-wrap" class='fixed'>navbar2</div>
     </div>
 
-    <div id="body-main-wrap" style="transform: none;">body-main
+    <div id="body-main-wrap"  style="transform: none;">
         <div id="slide-main-wrap" >slide
-          
+            <?=$this->insert('sections/slide')?>
         </div>
-        <div id="contain-main-wrap">
+        <div class="row">
+    <div class="col-sm-6 col-md-3 p-1">
+      <div id="contain-side-left-wrap">
+          <?=$this->insert('sections/side-left')?>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 p-1">
+    <div id="contain-main-wrap">
         <div class="div-contain-box">
-        <?=$this->section('content')?>
+            <?=$this->insert('sections/content')?>
         </div>
         </div>
+    </div>
+    <div class="col-sm-6 col-md-3 p-1">
+    <div id="contain-side-left-wrap">
+        right
+    </div>
+  </div>
+  </div>
+
     </div>
 
   </div>
