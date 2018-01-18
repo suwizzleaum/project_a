@@ -8,13 +8,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="" alt="First slide">
+      <img class="d-block w-100" src="https://d8lc2p9t6ahp6.cloudfront.net/news/pr_board_w594_20180104103702.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
+      <img class="d-block w-100" src="https://d8lc2p9t6ahp6.cloudfront.net/news/pr_board_w594_20180104103702.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
+      <img class="d-block w-100" src="https://d8lc2p9t6ahp6.cloudfront.net/news/pr_board_w594_20180104103702.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

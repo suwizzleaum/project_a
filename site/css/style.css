@@ -19,6 +19,14 @@ body{background-color: #E9EBEF}
     height: 50px;
     z-index:1;
 }
+.contain-image{
+  width:483px;
+  height:250px;
+}
+
+.contain-text{
+  padding-top: 10px;
+}
 
 #contain-meta{
   font-size: small;

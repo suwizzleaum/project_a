@@ -6,11 +6,22 @@
                 <div class="panel-heading">New Post</div>
                     <div class="panel-body">
                         <div class="panel-body-wrap">
-                            <form class="form-horizontal" method="POST" action="post/add">
+                            <form class="form-horizontal" method="POST" action="post/add" enctype="multipart/form-data">
                             {{ csrf_field() }}
                                 <div class="row">
                                     <div class="col-sm-7">
                                             <div class="left-panel-wrap">
+
+                                            <div class="form-group{{ $errors->has('img') ? ' has-error' : '' }}">
+                                                    <label for="ib-img">Select image to upload :</label>
+                                                    <input type="file" name="img" id="img">
+                                                    @if ($errors->has('img'))
+                                                        <span class="help-block">
+                                                            <strong>{{ $errors->first('img') }}</strong>
+                                                        </span>
+                                                    @endif
+                                                </div>
+                                                
                                                 <div class="form-group{{ $errors->has('title') ? ' has-error' : '' }}">
                                                     <label for="ib-title">Title</label>
                                                     <input type="text" class="form-control" name="title" placeholder="Example input" require>

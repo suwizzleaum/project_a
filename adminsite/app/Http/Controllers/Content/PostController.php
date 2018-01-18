@@ -6,8 +6,10 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 //use App\Model\Users;
+use Illuminate\Support\Facades\Input;
 use App\Model\Category_index;
 use App\Model\Content;
+use URL;
 
 class PostController extends Controller
 {
@@ -44,13 +46,21 @@ class PostController extends Controller
         $validate = $this->validate(request(), [
             'title' => 'required',
             'introduce' => 'required',
-            'content' => 'required'
+            'content' => 'required',
+            'img' => 'required|image|mimes:jpeg,png,jpg|max:2048'
         ]);
         
         try{
             $Content = new Content();
             $Content->title = $request->input('title');
-            $Content->image = 'test';
+
+            //images
+            $img = $request->file('img');
+            $img_name = $img->getClientOriginalName();
+            $img->move(public_path('images/content'), $img_name);
+            $image_store = URL::to('images/content').'/'.$img_name;
+            
+            $Content->image = $image_store;
             $Content->introduce = $request->input('introduce');
             $Content->content = $request->input('content');
             $Content->author_id = 'test';

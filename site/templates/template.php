@@ -17,9 +17,7 @@
         </div>
         <div class="row">
     <div class="col-sm-6 col-md-3 p-1">
-      <div id="contain-side-left-wrap">
-          <?=$this->insert('sections/side-left')?>
-      </div>
+    
     </div>
     <div class="col-sm-6 col-md-6 p-1">
     <div id="contain-main-wrap">
@@ -30,8 +28,9 @@
     </div>
     <div class="col-sm-6 col-md-3 p-1">
     <div id="contain-side-left-wrap">
-        right
-    </div>
+    <?=$this->insert('sections/side-left')?>
+    <?=$this->insert('sections/side-catagories')?>
+</div>
   </div>
   </div>
 

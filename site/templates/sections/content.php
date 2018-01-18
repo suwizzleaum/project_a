@@ -13,7 +13,7 @@
                   <hr>
                   <div class="contain-box-bodywrap">
                       <div class="contain-picture">
-                      <p>{{image}}</p>
+                      <img class="contain-image" src={{image}}>
                       </div>
                       <div class="contain-text">
                       <p>{{introduce}}</p>
