@@ -1,5 +1,5 @@
 
 <div class="side-panel">
-   <h5>Categories</h6>
+   <h5>CATEGORIES</h6>
    
 </div>

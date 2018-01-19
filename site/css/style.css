@@ -18,7 +18,20 @@ body{background-color: #E9EBEF}
     width: 100%;
     height: 50px;
     z-index:1;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+    
 }
+
+.top-bar-nav {
+  max-width: 99%;
+  width: 1000px;
+  height: 45px;
+  margin: auto;
+  position: relative;
+  padding: 5px;
+}
+
+
 .contain-image{
   width:483px;
   height:250px;
@@ -56,6 +69,7 @@ body{background-color: #E9EBEF}
     max-width: 600px;
 }
 
+
 @-webkit-keyframes placeHolderShimmer {
     0% {
       background-position: -468px 0
@@ -90,7 +104,7 @@ body{background-color: #E9EBEF}
     padding: 12px;
     margin: 0 auto;
 
-    min-height: 200px;
+    min-height: 170px;
   }
 
   .side-panel {
@@ -103,6 +117,38 @@ body{background-color: #E9EBEF}
     margin-right: auto;
     min-height: 200px;
   }
+
+
+  .side-panel-profile{
+    background: #fff;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 250px;
+    max-height: 70px;
+  }
+
+  .sidebar-profile-picture{
+    display: inline-block;
+    background: #417ffc !important;
+    width: 55px;
+    height: 55px;
+    padding: 0px;
+    
+  }
+  
+  .sidebar-profile-detail{
+    display: inline-block;
+    vertical-align:middle;
+    margin-bottom: 20px;
+    width: 75%;
+    height: 70px;
+    padding: 0px;
+  }
+  
   
   .animated-background {
     -webkit-animation-duration: 1s;

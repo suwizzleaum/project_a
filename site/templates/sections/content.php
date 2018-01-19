@@ -12,9 +12,9 @@
                   </div>
                   <hr>
                   <div class="contain-box-bodywrap">
-                      <div class="contain-picture">
-                      <img class="contain-image" src={{image}}>
-                      </div>
+                      <!--<div class="contain-picture">
+                        <img class="contain-image" src={{image}}>
+                      </div>-->
                       <div class="contain-text">
                       <p>{{introduce}}</p>
                       </div>
@@ -24,6 +24,7 @@
                     <a href="#" class="btn btn-sm btn-outline-secondary"><span class="glyphicon glyphicon-heart"></span> B2</a>
                   </div>-->
                 </div>
+               
             </div>
         {{/each}}
     </script>

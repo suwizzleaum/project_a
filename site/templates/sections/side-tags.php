@@ -1,5 +1,5 @@
 
 <div class="side-panel">
-   <h5>Tags</h6>
+   <h5>#TAGS</h6>
    
 </div>
