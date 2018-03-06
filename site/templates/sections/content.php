@@ -1,6 +1,6 @@
     <script id="entry-template" type="text/x-handlebars-template">
         {{#each obj}}
-          <div class="timeline-item">
+          <div class="timeline-item-sponser">
                 <div class="container-box-wrap">
                   <div class="contain-meta-top">
                     <h6><b>{{title}}</b></h6>
@@ -12,9 +12,9 @@
                   </div>
                   <hr>
                   <div class="contain-box-bodywrap">
-                      <!--<div class="contain-picture">
+                      <div class="contain-picture">
                         <img class="contain-image" src={{image}}>
-                      </div>-->
+                      </div>
                       <div class="contain-text">
                       <p>{{introduce}}</p>
                       </div>

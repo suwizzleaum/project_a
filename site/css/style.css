@@ -13,7 +13,7 @@ body{background-color: #E9EBEF}
 }
 
 #main-nav-wrap{
-    background-color: #f2f2f2 !important;
+    background-color: #423f3f !important;
     float: none;
     width: 100%;
     height: 50px;
@@ -37,6 +37,11 @@ body{background-color: #E9EBEF}
   height:250px;
 }
 
+.contain-image-item{
+  width:125px;
+  height:100px;
+}
+
 .contain-text{
   padding-top: 10px;
 }
@@ -49,17 +54,16 @@ body{background-color: #E9EBEF}
 #body-main-wrap{
     margin-top: 50px;
     display: block;
-    max-width: 1000px;
+    max-width: 1030px;
     margin-left:auto;
     margin-right: auto;
     padding-top: 10px;
 }
 
 #slide-main-wrap{
-    background: #417ffc !important;
     margin-left:auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    padding: 5px;
 }
 
 #contain-main-wrap{
@@ -68,6 +72,7 @@ body{background-color: #E9EBEF}
     margin-right: auto;
     max-width: 600px;
 }
+
 
 
 @-webkit-keyframes placeHolderShimmer {
@@ -95,8 +100,7 @@ body{background-color: #E9EBEF}
     border: 1px solid #ccc;
   }
 
-  
-  .timeline-item {
+  .timeline-item-sponser {
     background: #fff;
     border: 1px solid;
     border-color: #e5e6e9 #dfe0e4 #d0d1d5;
@@ -105,6 +109,18 @@ body{background-color: #E9EBEF}
     margin: 0 auto;
 
     min-height: 170px;
+  }
+
+  
+  .timeline-item {
+    background: #fff;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    padding: 0px;
+    margin: 0 auto;
+
+    min-height: 100px;
   }
 
   .side-panel {
@@ -190,7 +206,7 @@ body{background-color: #E9EBEF}
   
   .outlined:hover .background-masker:hover {
     border: 1px solid #ccc;
-    z-index: 1;
+    z-index: 99;
   }
   
   .background-masker.header-top,
@@ -286,4 +302,15 @@ body{background-color: #E9EBEF}
 
   #content-title{
     font-weight: bold;
+    max-width: 390px;
+  }
+
+  .row-contain { 
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .row-margin { 
+    margin-left: 0px;
+    margin-right: 0px;
   }
