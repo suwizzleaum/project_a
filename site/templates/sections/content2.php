@@ -46,12 +46,12 @@
             <img class="contain-image-item" src={{image}}>
             </div>
         </div>
-        <div class="col-sm-6 col-md-8 p-1">
+        <div class="col-sm-6 col-md-8 p-1">555
             <div class="contain-meta-top">
                 <div id="content-title">contain header</div>
                 <div>detail</div>
                 <div id="contain-meta">
-                        <span id="time">{{created_at}}</span>
+                        <span id="time">{{created_at}}</span>.
                 </div>
             </div>
         </div>

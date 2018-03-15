@@ -1,6 +1,14 @@
-<div>
-  <!--<button type="button" class="btn btn-dark" style="width:200px;">ทั้งหมด</button>-->
+<div class="top-menu">
+  <ul class="list-inline">
+  <li class="list-inline-menu"><span class="list-inline-menu-span">Home</span></li>
+  <li class="list-inline-menu"><span class="list-inline-menu-span">News</span></li>
+  <li class="list-inline-menu"><span class="list-inline-menu-span">Contact</span></li>
+    <li class="list-inline-menu"><span class="list-inline-menu-span">Sign in</span></li>
 
+  </ul>
+</div>
+
+    
 <script>
   $(document).ready(function() {
     $("#btn-register").click(function() {

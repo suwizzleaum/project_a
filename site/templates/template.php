@@ -35,7 +35,7 @@
     <div class="col-sm-6 col-md-3 p-1">
     <div id="contain-side-left-wrap">
     <?=$this->insert('sections/side-left')?>
-    <?=$this->insert('sections/side-catagories')?>
+    <?=$this->insert('sections/side-discuss')?>
 </div>
   </div>
   </div>
