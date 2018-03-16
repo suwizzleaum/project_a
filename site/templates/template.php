@@ -1,7 +1,12 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'theme/header.php'; ?>
+<?php 
+$PATH = $_SERVER['DOCUMENT_ROOT'].'/site';
+$config = $PATH.'/config/config.php';
+include($config);
+include(THEME_HEADER_DIR);
+?>
 
 <body>
 <div id='site' class='relative' style='transform: none;'>
