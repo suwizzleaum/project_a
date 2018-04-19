@@ -381,6 +381,12 @@ body{background-color: #E9EBEF}
   .primary-color{
     background-color: #428bca;
   }
+  .title-font{
+    color: white;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-weight: bold;
+    
+  }
 
   .td-contain-main{
     padding-left: 100px;

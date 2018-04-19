@@ -3,8 +3,7 @@
           <div class="timeline-item-sponser">
                 <div class="container-box-wrap">
                   <div class="contain-meta-top">
-
-                    <h6><b><a href="/site/content/view.php?content={{secure_meta}}">{{title}}</a></b></h6>
+                    <div class="primary-color"><h6><b><a class="title-font" href="/site/content/view.php?content={{secure_meta}}">{{title}}</a></b></h6></div>
                     <div id="contain-meta">
                         <span id="time">{{created_at}}</span>
                         <span id="writer">{{author}}</span>

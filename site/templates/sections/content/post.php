@@ -7,8 +7,8 @@
     </div>
 </div>
 <div class="content-main">
-    <div class="contain-title">
-        <h1>{{title}}</h1>
+    <div class="contain-title primary-color">
+        <h1 class="title-font">{{title}}</h1>
     </div>
     <div class="contain-widget">
         <div class="contain-author">
