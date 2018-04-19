@@ -18,12 +18,13 @@ class CreateContentTable extends Migration
             $table->string('title');
             $table->string('image');
             $table->string('introduce');
-            $table->string('content');
+            $table->string('content',3000);
             $table->string('categories',2);
             $table->string('author_id');
             $table->string('publish',1);
             $table->string('sponser',1);
             $table->string('tag')->nullable();
+            $table->string('secure_meta');
             $table->string('status',1);
             $table->timestamps();
         });

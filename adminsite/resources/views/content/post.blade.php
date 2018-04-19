@@ -49,6 +49,16 @@
                                                         </span>
                                                     @endif
                                                 </div>
+
+                                                <div class="form-group{{ $errors->has('secure_meta') ? ' has-error' : '' }}">
+                                                    <label for="ib-secure_meta">secure-meta</label>
+                                                    <input type="text" class="form-control" name="secure_meta" placeholder="Example input" require>
+                                                    @if ($errors->has('secure_meta'))
+                                                        <span class="help-block">
+                                                            <strong>{{ $errors->first('secure_meta') }}</strong>
+                                                        </span>
+                                                    @endif
+                                                </div>
                                             </div>
                                     </div>
                                     <div class="col-sm-3">

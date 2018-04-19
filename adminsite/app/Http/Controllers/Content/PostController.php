@@ -67,6 +67,7 @@ class PostController extends Controller
             $Content->categories = $request->input('categories');
             $Content->publish = $request->input('publish') == null?0:1;
             $Content->sponser = $request->input('sponser') == null?0:1;
+            $Content->secure_meta = $request->input('secure_meta');
             $Content->status = '1';
             $Content->save();
             

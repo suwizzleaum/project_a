@@ -19,9 +19,18 @@ class ApiController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+
+    public function get_content()
     {
         $content = Content::where('status','1')->orderByDesc('created_at')->get();
+        return response()->json($content);
+    }
+
+    public function get_content_view($content)
+    {
+        $content = Content::where('status','1')
+        ->where('secure_meta',$content)
+        ->orderByDesc('created_at')->get();
         return response()->json($content);
     }
     

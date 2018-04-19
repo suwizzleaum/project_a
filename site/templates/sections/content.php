@@ -3,7 +3,8 @@
           <div class="timeline-item-sponser">
                 <div class="container-box-wrap">
                   <div class="contain-meta-top">
-                    <h6><b>{{title}}</b></h6>
+
+                    <h6><b><a href="/site/content/view.php?content={{secure_meta}}">{{title}}</a></b></h6>
                     <div id="contain-meta">
                         <span id="time">{{created_at}}</span>
                         <span id="writer">{{author}}</span>
@@ -24,7 +25,7 @@
                     <a href="#" class="btn btn-sm btn-outline-secondary"><span class="glyphicon glyphicon-heart"></span> B2</a>
                   </div>-->
                 </div>
-               
+            
             </div>
         {{/each}}
     </script>

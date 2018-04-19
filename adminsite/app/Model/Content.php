@@ -16,6 +16,7 @@ class Content extends Model
         'publish',
         'sponser',
         'tag',
+        'secure_meta',
         'status'
         // add all other fields
     ];
