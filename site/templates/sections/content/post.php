@@ -29,5 +29,20 @@
 <input type="hidden" id="content_val" value="<?php echo $_GET['content']; ?>">
 <div id="entry-post"></div>
 <div class=''></div>
+
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDFvoL9v-AujyjPvfrPq1REX6amRRMbKWQ",
+    authDomain: "projecta-30d30.firebaseapp.com",
+    databaseURL: "https://projecta-30d30.firebaseio.com",
+    projectId: "projecta-30d30",
+    storageBucket: "projecta-30d30.appspot.com",
+    messagingSenderId: "596952186996"
+  };
+  firebase.initializeApp(config);
+</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
 <script src="../templates/sections/content/post.js"></script>
